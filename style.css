@@ -1,0 +1,23 @@
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+iframe {
+  width: calc(100% + 112px);
+  height: 58px;
+  opacity: 0.85;
+  position: absolute;
+  top: -6px;
+  left: -110px;
+}
